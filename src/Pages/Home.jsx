@@ -157,23 +157,23 @@ const Home = () => {
               <h3 className={`text-2xl font-semibold mb-6 ${darkMode ? 'text-white' : 'text-gray-800'}`}>Work Experience</h3>
               {[
                 {
-                  title: "Frontend Developer",
-                  company: "Tech Solutions Inc.",
-                  period: "2023 - Present",
-                  description: "Developing responsive web applications using React and modern CSS frameworks. Collaborating with design teams to implement pixel-perfect UI components.",
+                  title: "Frontend Developer intern   Paladin-Ai",
+                  company: "PaladinAi Tech pvt.Ltd.",
+                  period: "09/2025 - Present",
+                  description: "Built responsive UI components using React.js, HTML, CSS, Tailwind. 01/09/2025 – Present Converted Figma designs into pixel-perfect web pages.Improved website performance and accessibility.Collaborated with designers .Fixed UI bugs and optimized code for better UX.",
                   type: "work"
                 },
                 {
-                  title: "Junior Web Developer",
-                  company: "Digital Agency",
-                  period: "2022 - 2023",
-                  description: "Built interactive websites and web applications. Worked with HTML, CSS, JavaScript, and various frameworks to deliver high-quality solutions.",
+                  title: "React/Modern Frontend:-",
+                  company: "Paladin-Ai",
+                  period: "09/2025 - present",
+                  description: "Developed reusable React components using hooks (useState, useEffect)Implemented responsive layouts using Tailwind CSSIntegrated REST APIs and handled dynamic data rendering.",
                   type: "work"
                 },
                 {
                   title: "Freelance Developer",
                   company: "Self-Employed",
-                  period: "2021 - 2022",
+                  period: "2024 - 2025",
                   description: "Created custom websites and web applications for small businesses. Managed full project lifecycle from concept to deployment.",
                   type: "work"
                 }
