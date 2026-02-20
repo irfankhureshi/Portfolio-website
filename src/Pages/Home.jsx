@@ -34,7 +34,7 @@ const Home = () => {
       {/* ===== Navbar ===== */}
       <nav className={`fixed w-full ${darkMode ? 'bg-gray-900/80' : 'bg-white/80'} backdrop-blur-md shadow-lg z-50 border-b ${darkMode ? 'border-gray-700' : 'border-white/20'} transition-colors duration-300`}>
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Irfan Khureshi</h1>
+         <a href="#hero"className="text-2xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Irfan Khureshi</a>
           <div className="flex items-center space-x-8">
             <div className="space-x-8 hidden md:flex">
               <a href="#about" className={`${darkMode ? 'text-gray-300 hover:text-blue-400' : 'text-gray-700 hover:text-blue-600'} transition-colors duration-300 font-medium`}>About</a>
@@ -58,7 +58,7 @@ const Home = () => {
         <Route path="/" element={
           <>
       {/* ===== Hero Section ===== */}
-      <section className={`min-h-screen flex items-center justify-center ${darkMode ? 'bg-linear-to-br from-gray-900 via-gray-800 to-blue-900' : 'bg-linear-to-br from-blue-50 via-white to-purple-50'} pt-20 relative overflow-hidden`}>
+      <section id="hero" className={`min-h-screen flex items-center justify-center ${darkMode ? 'bg-linear-to-br from-gray-900 via-gray-800 to-blue-900' : 'bg-linear-to-br from-blue-50 via-white to-purple-50'} pt-20 relative overflow-hidden`}>
         <div className={`absolute inset-0 ${darkMode ? 'bg-linear-to-br from-blue-900/20 to-purple-900/20' : 'bg-linear-to-br from-blue-50/20 to-purple-50/20'}`}></div>
         <div className="text-center px-4 relative z-10 animate-fade-in-up">
           <div className="mb-6">
